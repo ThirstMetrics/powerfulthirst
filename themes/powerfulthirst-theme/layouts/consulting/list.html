@@ -1,0 +1,125 @@
+{{ define "main" }}
+
+  <!-- Hero -->
+  <section class="tm-hero">
+    <div class="container">
+      <span class="tm-badge">Top Shelf Consulting</span>
+      <h1>Beverage Strategy<br><span class="text-amber">That Delivers</span></h1>
+      <p class="tm-subtitle">Consulting &middot; AI Strategy &middot; White-Label Programs</p>
+      <p class="tm-lead">Two decades of food and beverage experience combined with data analytics and AI expertise. Whether you need a beverage program overhaul, a go-to-market strategy, or a white-label solution built to your specs &mdash; let's talk.</p>
+      <a href="#contact" class="btn btn-primary btn-lg">Get in Touch &rarr;</a>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="tm-section">
+    <div class="container">
+      <h2 class="text-center">How I Can Help</h2>
+      <div class="tm-features">
+        <div class="tm-feature">
+          <h4>Beverage Program Consulting</h4>
+          <p>Menu development, cost analysis, supplier strategy, and staff training programs. Built for restaurants, hotels, and hospitality groups looking to elevate their beverage offering.</p>
+        </div>
+        <div class="tm-feature">
+          <h4>AI &amp; Data Strategy</h4>
+          <p>Practical AI integration for beverage companies &mdash; from demand forecasting and inventory optimization to customer analytics and sales territory intelligence.</p>
+        </div>
+        <div class="tm-feature">
+          <h4>White-Label Solutions</h4>
+          <p>Custom-built data tools, dashboards, and platforms for distributors, brands, and industry organizations. Your brand, powered by proven technology.</p>
+        </div>
+        <div class="tm-feature">
+          <h4>Market Entry Strategy</h4>
+          <p>Launching a brand in a new market? Navigate licensing, distribution, pricing, and retailer relationships with a strategist who's been on every side of the table.</p>
+        </div>
+        <div class="tm-feature">
+          <h4>Sales Team Enablement</h4>
+          <p>Territory planning, account targeting methodology, and the data workflows that help lean sales teams punch above their weight.</p>
+        </div>
+        <div class="tm-feature">
+          <h4>Custom Projects</h4>
+          <p>Have something else in mind? From industry research to speaking engagements to technical builds &mdash; if it involves beverage and data, I'm interested.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Work With Me -->
+  <section class="tm-section tm-section--dark">
+    <div class="container">
+      <div class="tm-who">
+        <div class="tm-who-text">
+          <h2>Why Work With Me</h2>
+          <p>I've worked every side of the beverage industry &mdash; behind the bar, in the distributor's warehouse, in the buyer's office, and in the data. That range means I don't just understand your problem, I've probably lived it.</p>
+          <p>Today I combine that operational experience with data science and AI to build solutions that actually work in the real world, not just in a pitch deck.</p>
+        </div>
+        <div class="tm-who-stats">
+          <div class="tm-stat">
+            <div class="tm-stat-num">20+</div>
+            <div class="tm-stat-label">Years in F&amp;B</div>
+          </div>
+          <div class="tm-stat">
+            <div class="tm-stat-num">AI</div>
+            <div class="tm-stat-label">+ Data Analytics</div>
+          </div>
+          <div class="tm-stat">
+            <div class="tm-stat-num">TX</div>
+            <div class="tm-stat-label">Austin Based</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form -->
+  <section class="tm-section" id="contact">
+    <div class="container">
+      <div class="consult-form-wrapper">
+        <div class="consult-form-intro">
+          <h2>Let's Start a Conversation</h2>
+          <p>Tell me a bit about what you're working on. I'll get back to you within one business day.</p>
+          <div class="consult-form-details">
+            <p><strong>Email:</strong> john@topshelfconsulting.us</p>
+          </div>
+        </div>
+        <form class="consult-form" action="https://formsubmit.co/john@topshelfconsulting.us" method="POST">
+          <input type="hidden" name="_subject" value="PowerfulThirst Consulting Inquiry">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_next" value="https://powerfulthirst.com/consulting/?thanks=1">
+          <input type="text" name="_honey" style="display:none">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required placeholder="Your name">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder="your@email.com">
+          </div>
+          <div class="form-group">
+            <label for="company">Company</label>
+            <input type="text" id="company" name="company" placeholder="Company or brand (optional)">
+          </div>
+          <div class="form-group">
+            <label for="interest">I'm interested in...</label>
+            <select id="interest" name="interest">
+              <option value="">Select one</option>
+              <option value="Beverage Program Consulting">Beverage Program Consulting</option>
+              <option value="AI & Data Strategy">AI & Data Strategy</option>
+              <option value="White-Label Solution">White-Label Solution</option>
+              <option value="Market Entry Strategy">Market Entry Strategy</option>
+              <option value="Sales Team Enablement">Sales Team Enablement</option>
+              <option value="Custom Project">Custom Project</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Tell me more</label>
+            <textarea id="message" name="message" rows="4" placeholder="Brief description of what you're looking for..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-lg" style="width: 100%;">Send Message &rarr;</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+{{ end }}

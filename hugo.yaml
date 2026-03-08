@@ -45,9 +45,15 @@ menus:
     - name: Media
       url: /media/
       weight: 30
+    - name: Courses
+      url: /courses/
+      weight: 33
+    - name: Consulting
+      url: /consulting/
+      weight: 35
     - name: ThirstMetrics
       url: /thirstmetrics/
-      weight: 35
+      weight: 38
     - name: About
       url: /about/
       weight: 40
