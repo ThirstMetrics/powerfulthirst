@@ -45,17 +45,9 @@ menus:
     - name: Media
       url: /media/
       weight: 30
-    - name: TiWin Data
-      url: /tiwin-data/
+    - name: ThirstMetrics
+      url: /thirstmetrics/
       weight: 35
-    - name: Business Check Up
-      url: /tiwin-data/business-check-up/
-      parent: TiWin Data
-      weight: 36
-    - name: Business Management Tools
-      url: /tiwin-data/business-management-tools/
-      parent: TiWin Data
-      weight: 37
     - name: About
       url: /about/
       weight: 40
