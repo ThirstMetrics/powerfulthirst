@@ -25,44 +25,57 @@ taxonomies:
 # Main Menu
 menus:
   main:
-    - name: Blog
+    - name: Features
       url: /blog/
       weight: 10
-    - name: TiWin Data
-      url: /tiwin-data/
-      weight: 20
-    - name: Business Check Up
-      url: /tiwin-data/business-check-up/
-      parent: TiWin Data
-      weight: 21
-    - name: Business Management Tools
-      url: /tiwin-data/business-management-tools/
-      parent: TiWin Data
-      weight: 22
+    - name: Recipes
+      url: /recipes/
+      weight: 15
     - name: Spirits
       url: /spirits/
-      weight: 30
+      weight: 20
+    - name: Bourbon
+      url: /spirits/bourbon/
+      parent: Spirits
+      weight: 21
     - name: Whiskey
       url: /spirits/whiskey/
       parent: Spirits
-      weight: 31
+      weight: 22
+    - name: Media
+      url: /media/
+      weight: 30
+    - name: TiWin Data
+      url: /tiwin-data/
+      weight: 35
+    - name: Business Check Up
+      url: /tiwin-data/business-check-up/
+      parent: TiWin Data
+      weight: 36
+    - name: Business Management Tools
+      url: /tiwin-data/business-management-tools/
+      parent: TiWin Data
+      weight: 37
     - name: About
       url: /about/
       weight: 40
 
   footer:
-    - name: Blog
+    - name: Features
       url: /blog/
       weight: 10
-    - name: About
-      url: /about/
+    - name: Recipes
+      url: /recipes/
       weight: 20
-    - name: TiWin Data
-      url: /tiwin-data/
-      weight: 30
     - name: Spirits
       url: /spirits/
+      weight: 30
+    - name: Media
+      url: /media/
       weight: 40
+    - name: About
+      url: /about/
+      weight: 50
 
 # Markup settings
 markup:

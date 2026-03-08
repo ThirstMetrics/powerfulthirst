@@ -25,9 +25,9 @@ slug:
 
 # Collections (content types)
 collections:
-  # Blog Posts
+  # Blog / Feature Posts
   - name: "blog"
-    label: "Blog Posts"
+    label: "Feature Articles"
     folder: "content/blog"
     create: true
     slug: "{{slug}}"
@@ -41,7 +41,55 @@ collections:
       - { label: "Description", name: "description", widget: "text", required: false }
       - { label: "Body", name: "body", widget: "markdown" }
 
-  # About Page
+  # Drink Recipes
+  - name: "recipes"
+    label: "Drink Recipes"
+    folder: "content/recipes"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Draft", name: "draft", widget: "boolean", default: false, required: false }
+      - { label: "Featured Image", name: "featured_image", widget: "image", required: false }
+      - { label: "Categories", name: "categories", widget: "list", required: false }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+      - { label: "Description", name: "description", widget: "text", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  # Spirits
+  - name: "spirits"
+    label: "Spirits"
+    folder: "content/spirits"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Draft", name: "draft", widget: "boolean", default: false, required: false }
+      - { label: "Featured Image", name: "featured_image", widget: "image", required: false }
+      - { label: "Categories", name: "categories", widget: "list", required: false }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+      - { label: "Description", name: "description", widget: "text", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  # Podcasts & Videos
+  - name: "media"
+    label: "Podcasts & Videos"
+    folder: "content/media"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Draft", name: "draft", widget: "boolean", default: false, required: false }
+      - { label: "Featured Image", name: "featured_image", widget: "image", required: false }
+      - { label: "Categories", name: "categories", widget: "list", required: false }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+      - { label: "Description", name: "description", widget: "text", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  # Pages
   - name: "pages"
     label: "Pages"
     files:
@@ -64,18 +112,6 @@ collections:
   - name: "tiwin-data"
     label: "TiWin Data"
     folder: "content/tiwin-data"
-    create: true
-    slug: "{{slug}}/_index"
-    path: "{{slug}}/_index"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "text", required: false }
-      - { label: "Body", name: "body", widget: "markdown" }
-
-  # Spirits Section
-  - name: "spirits"
-    label: "Spirits"
-    folder: "content/spirits"
     create: true
     slug: "{{slug}}/_index"
     path: "{{slug}}/_index"
