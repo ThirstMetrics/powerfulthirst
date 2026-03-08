@@ -1,0 +1,95 @@
+baseURL: https://powerfulthirst.com/
+languageCode: en-us
+title: PowerfulThirst.com
+theme: powerfulthirst-theme
+
+# Site parameters
+params:
+  description: "Industry intelligence, market analysis, and expert insights for food and beverage professionals."
+  tagline: "Industry Intelligence for Food & Beverage Professionals"
+  author: "John Paddon"
+  social:
+    # twitter: ""
+    # linkedin: ""
+    # email: ""
+
+# Pagination
+pagination:
+  pagerSize: 10
+
+# Taxonomies
+taxonomies:
+  tag: tags
+  category: categories
+
+# Main Menu
+menus:
+  main:
+    - name: Blog
+      url: /blog/
+      weight: 10
+    - name: TiWin Data
+      url: /tiwin-data/
+      weight: 20
+    - name: Business Check Up
+      url: /tiwin-data/business-check-up/
+      parent: TiWin Data
+      weight: 21
+    - name: Business Management Tools
+      url: /tiwin-data/business-management-tools/
+      parent: TiWin Data
+      weight: 22
+    - name: Spirits
+      url: /spirits/
+      weight: 30
+    - name: Whiskey
+      url: /spirits/whiskey/
+      parent: Spirits
+      weight: 31
+    - name: About
+      url: /about/
+      weight: 40
+
+  footer:
+    - name: Blog
+      url: /blog/
+      weight: 10
+    - name: About
+      url: /about/
+      weight: 20
+    - name: TiWin Data
+      url: /tiwin-data/
+      weight: 30
+    - name: Spirits
+      url: /spirits/
+      weight: 40
+
+# Markup settings
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    style: monokai
+    lineNos: false
+
+# Build settings
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+# Output formats
+outputs:
+  home:
+    - HTML
+    - RSS
+
+# Minify output
+minify:
+  disableCSS: false
+  disableHTML: false
+  disableJS: false
+  disableJSON: false
+  disableSVG: false
+  disableXML: false
+  minifyOutput: true

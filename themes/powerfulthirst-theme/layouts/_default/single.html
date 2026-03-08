@@ -1,0 +1,54 @@
+{{ define "main" }}
+  <article>
+    <!-- Page Header -->
+    <header class="page-header">
+      <div class="container">
+        <div class="post-meta">
+          <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+          {{ with .Params.categories }}
+            &middot;
+            {{ range . }}
+              <span>{{ . }}</span>
+            {{ end }}
+          {{ end }}
+        </div>
+        <h1>{{ .Title }}</h1>
+        {{ with .Params.subtitle }}
+          <p class="subtitle">{{ . }}</p>
+        {{ end }}
+      </div>
+    </header>
+
+    <!-- Content -->
+    <div class="container">
+      <div class="content-container">
+        {{ with .Params.featured_image }}
+          <img src="{{ . }}" alt="{{ $.Title }}" class="post-featured-image">
+        {{ end }}
+
+        <div class="post-content">
+          {{ .Content }}
+        </div>
+
+        <!-- Tags -->
+        {{ with .Params.tags }}
+          <div class="post-tags mt-lg">
+            {{ range . }}
+              <a href="{{ "tags/" | relURL }}{{ . | urlize }}/" class="tag">#{{ . }}</a>
+            {{ end }}
+          </div>
+        {{ end }}
+
+        <!-- Post Navigation -->
+        <nav class="post-nav mt-xl" style="display: flex; justify-content: space-between; padding-top: var(--space-lg); border-top: 1px solid var(--border);">
+          {{ with .PrevInSection }}
+            <a href="{{ .RelPermalink }}" class="read-more">&larr; {{ .Title | truncate 40 }}</a>
+          {{ end }}
+          {{ with .NextInSection }}
+            <a href="{{ .RelPermalink }}" class="read-more" style="margin-left: auto;">{{ .Title | truncate 40 }} &rarr;</a>
+          {{ end }}
+        </nav>
+      </div>
+    </div>
+  </article>
+{{ end }}

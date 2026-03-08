@@ -1,0 +1,85 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# For local development (comment out git-gateway and uncomment this)
+# backend:
+#   name: test-repo
+
+# Media files
+media_folder: static/images
+public_folder: /images
+
+# Site URL for editorial workflow previews
+site_url: https://powerfulthirst.com
+display_url: https://powerfulthirst.com
+
+# Logo for CMS
+logo_url: /images/logo.png
+
+# Slug configuration
+slug:
+  encoding: "ascii"
+  clean_accents: true
+  sanitize_replacement: "-"
+
+# Collections (content types)
+collections:
+  # Blog Posts
+  - name: "blog"
+    label: "Blog Posts"
+    folder: "content/blog"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Draft", name: "draft", widget: "boolean", default: false, required: false }
+      - { label: "Featured Image", name: "featured_image", widget: "image", required: false }
+      - { label: "Categories", name: "categories", widget: "list", required: false }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+      - { label: "Description", name: "description", widget: "text", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  # About Page
+  - name: "pages"
+    label: "Pages"
+    files:
+      - label: "About"
+        name: "about"
+        file: "content/about/_index.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "text", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - label: "Home"
+        name: "home"
+        file: "content/_index.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  # TiWin Data Section
+  - name: "tiwin-data"
+    label: "TiWin Data"
+    folder: "content/tiwin-data"
+    create: true
+    slug: "{{slug}}/_index"
+    path: "{{slug}}/_index"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "text", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  # Spirits Section
+  - name: "spirits"
+    label: "Spirits"
+    folder: "content/spirits"
+    create: true
+    slug: "{{slug}}/_index"
+    path: "{{slug}}/_index"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "text", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
