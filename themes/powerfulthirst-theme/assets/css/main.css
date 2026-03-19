@@ -221,11 +221,22 @@ img { max-width: 100%; height: auto; }
   display: flex;
   align-items: center;
 }
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  z-index: 0;
+}
 .hero::before {
   content: '';
   position: absolute;
   inset: 0;
+  z-index: 1;
   background:
+    linear-gradient(var(--overlay-dark), var(--overlay-medium)),
     radial-gradient(ellipse at 20% 80%, rgba(212, 160, 62, 0.15) 0%, transparent 50%),
     radial-gradient(ellipse at 80% 20%, rgba(184, 115, 51, 0.1) 0%, transparent 50%),
     radial-gradient(ellipse at 50% 50%, rgba(255,255,255,0.02) 0%, transparent 70%);
@@ -238,6 +249,7 @@ img { max-width: 100%; height: auto; }
   right: 0;
   height: 120px;
   background: linear-gradient(to top, var(--navy), transparent);
+  z-index: 1;
 }
 .hero .container {
   position: relative;
