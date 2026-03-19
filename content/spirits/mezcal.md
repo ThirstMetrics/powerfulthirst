@@ -20,8 +20,8 @@ description: "A comprehensive guide to mezcal — its history, agave varieties, 
 
 Mezcal is not a trend. It is one of the oldest distilled spirits in the Americas, rooted in centuries of indigenous knowledge, family tradition, and a relationship with the agave plant that borders on the sacred. For beverage professionals, understanding mezcal means understanding an entire category that is still largely defined by artisanal production, terroir, and the hands of individual mezcaleros and mezcaleras working in remote palenques across Mexico.
 
-![Mezcal production](https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=1200)
-*Photo by Adam Jaime on Unsplash*
+![Agave plants growing outside a mezcal palenque in Oaxaca, Mexico, with a rustic wooden and corrugated metal structure in the background](https://images.unsplash.com/photo-1677728285851-a8809178a5fa?w=1200)
+*Agave plants at a mezcal palenque (small-scale distillery) in Oaxaca, Mexico. Most mezcal is still produced at family-operated palenques like this one, where every stage of production is done by hand. Photo by Thomas Wavid Johns on [Unsplash](https://unsplash.com/@thomaswavidjohns)*
 
 ---
 
@@ -63,8 +63,8 @@ This renaissance has brought both opportunity and tension. International demand 
 
 This is where mezcal diverges most dramatically from tequila. While tequila is restricted to a single species — Agave tequilana Weber var. azul — mezcal can be made from **over 50 species and varieties of agave**, each with distinct flavor profiles, growing conditions, and maturation timelines.
 
-![Agave plants in the Mexican landscape](https://images.unsplash.com/photo-1499988921418-b7df40ff03f9?w=1200)
-*Photo by Roberto Carlos Roman Don on Unsplash*
+![A bottle of Madre Mezcal Artesanal, labeled Espadín y Cuishe, from Oaxaca, Mexico, photographed among agave leaves and river stones](https://images.unsplash.com/photo-1598294032141-b4818a331ad7?w=1200)
+*Madre Mezcal Artesanal — a blend of Espadín and Cuishe agave from Oaxaca, Mexico. The "Artesanal" designation on the label indicates traditional production: pit-roasted agave, tahona-crushed, and copper pot still distilled. Photo by YesMore Content on [Unsplash](https://unsplash.com/@yesmorecontent)*
 
 ### Cultivated Varieties
 
@@ -202,8 +202,8 @@ Mezcal uses a classification system that will be familiar to tequila professiona
 
 ## Regions
 
-![Mexican landscape](https://images.unsplash.com/photo-1518105779142-d975f22f1b0a?w=1200)
-*Photo by Filip Gielda on Unsplash*
+![Rooftop view of Oaxaca de Juárez, Mexico, with colonial buildings, church towers, and the Sierra Madre mountains rising in the distance](https://images.unsplash.com/photo-1641511255914-a30e17ef2071?w=1200)
+*Oaxaca de Juárez, capital of the state of Oaxaca and the epicenter of Mexico's mezcal industry. Approximately 85–90% of all certified mezcal production occurs in Oaxaca. Photo by Alice Kotlyarenko on [Unsplash](https://unsplash.com/@alicekotlyarenko)*
 
 ### Oaxaca
 

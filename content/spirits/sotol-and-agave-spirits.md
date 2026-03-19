@@ -24,7 +24,8 @@ The global fascination with agave spirits has expanded well beyond tequila and m
 
 This guide treats each spirit on its own terms---history, production, legal status, and the producers shaping the category---and closes with a comprehensive glossary of the terminology you need to speak about them with precision.
 
-![Chihuahuan Desert landscape](https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=1200 "Photo by Yuliya Kosolapova on Unsplash")
+![Blue agave field stretching toward mountains outside the town of Tequila in Jalisco, Mexico](https://images.unsplash.com/photo-1634130132261-3bdf61051454?w=1200)
+*An agave field outside the town of Tequila, Jalisco, Mexico — the heartland of Mexico's most famous spirit and the state that also produces Raicilla. Photo by Dylan Freedom on [Unsplash](https://unsplash.com/@dylanfreedom)*
 
 ---
 
@@ -86,7 +87,8 @@ Mexico granted Sotol a **Denominación de Origen (DO)** in **June 2002**, restri
 
 - **Sotol Fabriquero** --- small-batch producer from the Coyame region of Chihuahua, noted for terroir-driven expressions.
 
-![Mexican landscape and architecture](https://images.unsplash.com/photo-1547995886-6dc09384c6e6?w=1200 "Photo by Jezael Melgoza on Unsplash")
+![Aerial view of the colonial city of Guanajuato, Mexico, with its iconic Basílica de Nuestra Señora de Guanajuato and colorful hillside buildings](https://images.unsplash.com/photo-1547995886-6dc09384c6e6?w=1200)
+*The colonial city of Guanajuato, Mexico — one of the states included in the mezcal Denomination of Origin. Mexico's regional spirits traditions are deeply tied to the country's colonial-era towns and the agricultural landscapes surrounding them. Photo by Jezael Melgoza on [Unsplash](https://unsplash.com/@jezael)*
 
 ---
 
@@ -193,7 +195,8 @@ After decades of decline, Pulque has experienced a significant cultural revival 
 
 Canned and bottled Pulque products have entered the market, though purists argue that pasteurization (necessary for shelf stability) fundamentally alters the drink's character. The tension between preservation and authenticity remains a live debate.
 
-![Agave and desert plants](https://images.unsplash.com/photo-1596392927852-2a18cc029a31?w=1200 "Photo by Dan Meyers on Unsplash")
+![The Cathedral of Guadalajara, Jalisco, with pedestrians walking through the adjacent plaza on a sunny afternoon](https://images.unsplash.com/photo-1563657296610-d0459418a7a7?w=1200)
+*The Cathedral of Guadalajara, capital of Jalisco — the state that is home to both tequila and Raicilla. Jalisco's Pacific coast and Sierra Madre highlands each produce distinct styles of Raicilla. Photo by Roman Lopez on [Unsplash](https://unsplash.com/@romanlopez)*
 
 ---
 

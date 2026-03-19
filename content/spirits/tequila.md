@@ -19,8 +19,8 @@ description: "A comprehensive guide to tequila for beverage industry professiona
 
 Tequila is one of the most regulated and terroir-driven spirits in the world. For beverage professionals, understanding its production, legal framework, regional character, and classification system is essential to building credible agave programs and advising clients. This guide covers the full scope of what the trade needs to know.
 
-![Rows of blue agave plants growing in a field under open sky](https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=1200)
-*Photo by Alexander Hauk on Unsplash*
+![Rows of blue Weber agave stretching toward the horizon in the highlands near the town of Tequila, Jalisco, Mexico](https://images.unsplash.com/photo-1706888135824-20ec9010b7bc?w=1200)
+*Blue Weber agave field near Tequila, Jalisco, Mexico. The volcanic soil and elevation of the Tequila Valley produce agave with earthy, mineral-driven character. Photo by Scott Tobin on [Unsplash](https://unsplash.com/@scotttobin)*
 
 ---
 
@@ -72,8 +72,8 @@ Tequila production begins in the agave fields. Blue Weber agave takes **six to e
 
 Before harvesting, the jimador identifies signs of maturity: the pencas flatten, the plant may attempt to send up a flowering stalk (quiote), and the piña's sugar content (measured in Brix) reaches optimal levels. If the quiote is allowed to grow, it diverts sugars away from the piña, so jimadores remove it early. New plants are propagated from **hijuelos** — small offshoots (pups) that grow at the base of the mother plant — which are transplanted to begin the next growth cycle.
 
-![Close-up of blue agave plants showing their thick, pointed leaves](https://images.unsplash.com/photo-1585408573498-44e0e7613145?w=1200)
-*Photo by Meritt Thomas on Unsplash*
+![Hundreds of harvested agave piñas piled in the courtyard of a tequila distillery, their cross-hatched surfaces exposed after jimadores stripped the pencas](https://images.unsplash.com/photo-1706888135869-24794bc05154?w=1200)
+*Freshly harvested agave piñas await cooking at a distillery in Jalisco. Each piña weighs 30–70 kg and represents 6–8 years of growth. Photo by Scott Tobin on [Unsplash](https://unsplash.com/@scotttobin)*
 
 ### Cooking
 
@@ -143,8 +143,8 @@ Aged a minimum of **three years** in barrels no larger than 600 liters. This cla
 
 Not an official NOM classification but a commercially significant sub-category that has surged in popularity since the mid-2010s. Cristalino is an aged tequila (typically añejo or extra añejo) that has been **charcoal-filtered** to remove color, resulting in a clear spirit with some of the smoothness and mellowness of barrel aging but the visual appearance of a blanco. The filtration process also strips some flavor compounds, and opinions in the trade are divided: proponents value the accessibility and versatility; critics argue it removes complexity and serves primarily as a marketing exercise. Regardless, cristalino has become a major commercial force, particularly in the Mexican domestic market.
 
-![Several bottles of tequila displayed together](https://images.unsplash.com/photo-1569930784237-ea65a528f7b3?w=1200)
-*Photo by Francisco Galarza on Unsplash*
+![Copper pot stills inside a tequila distillery in Jalisco, Mexico, with a worker walking past for scale](https://images.unsplash.com/photo-1706888135871-8d12ac8c508c?w=1200)
+*Copper pot stills at a tequila distillery in Jalisco, Mexico. Copper catalyzes ester formation and removes sulfur compounds during distillation, producing a smoother, more aromatic spirit. Photo by Scott Tobin on [Unsplash](https://unsplash.com/@scotttobin)*
 
 ---
 
