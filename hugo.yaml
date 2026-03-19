@@ -34,6 +34,18 @@ menus:
     - name: Spirits
       url: /spirits/
       weight: 20
+    - name: Tequila
+      url: /spirits/tequila/
+      parent: Spirits
+      weight: 20.1
+    - name: Mezcal
+      url: /spirits/mezcal/
+      parent: Spirits
+      weight: 20.2
+    - name: "Sotol & Agave Spirits"
+      url: /spirits/sotol-and-agave-spirits/
+      parent: Spirits
+      weight: 20.3
     - name: Bourbon
       url: /spirits/bourbon/
       parent: Spirits
