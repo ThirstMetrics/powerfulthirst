@@ -42,6 +42,26 @@ menus:
       url: /spirits/whiskey/
       parent: Spirits
       weight: 22
+    - name: "───"
+      url: "#"
+      parent: Spirits
+      weight: 23
+    - name: Scotch Distillery Map
+      url: https://maps.powerfulthirst.com/?spirit=scotch
+      parent: Spirits
+      weight: 24
+    - name: Tequila Distillery Map
+      url: https://maps.powerfulthirst.com/?spirit=tequila
+      parent: Spirits
+      weight: 25
+    - name: Rum Distillery Map
+      url: https://maps.powerfulthirst.com/?spirit=rum
+      parent: Spirits
+      weight: 26
+    - name: Sake Brewery Map
+      url: https://maps.powerfulthirst.com/?spirit=sake
+      parent: Spirits
+      weight: 27
     - name: Media
       url: /media/
       weight: 30

@@ -210,6 +210,7 @@ img { max-width: 100%; height: auto; }
 }
 .dropdown a:hover { background: var(--warm-gray); color: var(--amber-dark); }
 .dropdown a::after { display: none; }
+.dropdown a[href="#"] { pointer-events: none; font-size: 0; border-top: 1px solid var(--border); margin: 0.25rem 0; padding: 0; }
 
 /* ========== HERO ========== */
 .hero {

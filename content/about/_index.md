@@ -9,7 +9,7 @@ I started PowerfulThirst.com as a platform for the men and women of the alcohol 
 
 Over the years the path has taken some turns. I spent time in Austin working in the market there, then left in 2020 to take a position with a startup in New York City. Since 2022 I've been back in the industry working in distribution in Las Vegas, while building out a suite of software tools designed to solve the real problems I kept running into on the job.
 
-That work became [ThirstMetrics](https://thirstmetrics.com) — a sales intelligence platform that turns public TABC data into actionable prospect lists for alcohol reps in Texas. It also led to [Top Shelf Consulting](/consulting/), where I help beverage companies with everything from program development to AI strategy to white-label data solutions.
+That work became [ThirstMetrics](https://thirstmetrics.com) — a software company building a portfolio of tools for the beverage industry. The suite includes Streetwise, a location-pinned photographic intelligence platform for field data collection; Whiskey River, a Texas market intelligence and CRM tool powered by public TABC data; Spotlight, a multi-outlet resort inventory management system; and Cadenza, beverage menu printing and management software. It also led to [Top Shelf Consulting](/consulting/), where I help beverage companies with everything from program development to AI strategy to white-label data solutions.
 
 These days I'm focused on writing about AI in the beverage industry, building online education for F&B professionals through the [PowerfulThirst Academy](/courses/), and continuing to develop the tools I wish I'd had earlier in my career.
 
