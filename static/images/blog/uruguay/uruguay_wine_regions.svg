@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600" width="500" height="600">
+  <defs>
+    <style>
+      .country-fill { fill: #e8e0f5; stroke: #503AA8; stroke-width: 2; }
+      .region-dot { fill: #503AA8; }
+      .region-dot-highlight { fill: #FFEE58; stroke: #503AA8; stroke-width: 1.5; }
+      .label { font-family: 'Georgia', serif; font-size: 13px; fill: #2d2055; }
+      .label-bold { font-family: 'Georgia', serif; font-size: 13px; fill: #2d2055; font-weight: bold; }
+      .title { font-family: 'Georgia', serif; font-size: 20px; fill: #503AA8; font-weight: bold; }
+      .subtitle { font-family: 'Georgia', serif; font-size: 12px; fill: #666; }
+      .river { fill: none; stroke: #7fb3d8; stroke-width: 1.5; }
+      .coast { fill: #c5dff0; }
+      .border-country { font-family: 'Georgia', serif; font-size: 11px; fill: #999; font-style: italic; }
+      .legend-text { font-family: 'Georgia', serif; font-size: 11px; fill: #444; }
+      .connector { stroke: #503AA8; stroke-width: 1; stroke-dasharray: 3,3; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="500" height="600" fill="#f9f7fd" rx="8"/>
+
+  <!-- Title -->
+  <text x="250" y="35" class="title" text-anchor="middle">Wine Regions of Uruguay</text>
+  <text x="250" y="55" class="subtitle" text-anchor="middle">Key Appellations &amp; Production Zones</text>
+
+  <!-- Atlantic Ocean area -->
+  <rect x="320" y="350" width="180" height="250" class="coast" opacity="0.4" rx="20"/>
+  <text x="420" y="520" class="border-country" text-anchor="middle" transform="rotate(-20, 420, 520)">Atlantic Ocean</text>
+
+  <!-- Neighboring countries labels -->
+  <text x="100" y="90" class="border-country" text-anchor="middle">BRAZIL</text>
+  <text x="50" y="350" class="border-country" text-anchor="middle" transform="rotate(-90, 50, 350)">ARGENTINA</text>
+
+  <!-- Simplified Uruguay outline -->
+  <path class="country-fill" d="
+    M 200,100
+    C 230,95 270,100 310,110
+    Q 340,120 350,140
+    Q 370,160 380,190
+    Q 390,220 395,250
+    Q 400,280 405,310
+    Q 410,340 400,370
+    Q 390,400 370,430
+    Q 350,460 330,480
+    Q 310,500 280,510
+    Q 250,515 220,505
+    Q 190,495 160,475
+    Q 130,455 110,430
+    Q 95,410 90,380
+    Q 85,350 90,320
+    Q 95,290 100,260
+    Q 105,230 115,200
+    Q 125,170 140,150
+    Q 160,120 180,110
+    Q 190,102 200,100
+    Z
+  "/>
+
+  <!-- Río de la Plata suggestion (southern border) -->
+  <path class="river" d="M 160,475 Q 200,500 240,510 Q 270,515 300,505" stroke-width="2.5" opacity="0.5"/>
+  <text x="230" y="535" class="border-country" text-anchor="middle" font-size="10">Río de la Plata</text>
+
+  <!-- Rivera region (north, Brazilian border) -->
+  <circle cx="245" cy="135" r="18" class="region-dot-highlight" opacity="0.7"/>
+  <circle cx="245" cy="135" r="5" class="region-dot"/>
+  <line x1="263" y1="135" x2="310" y2="120" class="connector"/>
+  <text x="315" y="116" class="label-bold">Rivera</text>
+  <text x="315" y="130" class="label" font-size="10">Northern border region</text>
+
+  <!-- Colonia region (southwest) -->
+  <circle cx="145" cy="430" r="18" class="region-dot-highlight" opacity="0.7"/>
+  <circle cx="145" cy="430" r="5" class="region-dot"/>
+  <line x1="127" y1="430" x2="65" y2="430" class="connector"/>
+  <text x="60" y="426" class="label-bold" text-anchor="end">Colonia</text>
+  <text x="60" y="440" class="label" font-size="10" text-anchor="end">Historic SW region</text>
+
+  <!-- Montevideo region -->
+  <circle cx="260" cy="455" r="18" class="region-dot-highlight" opacity="0.7"/>
+  <circle cx="260" cy="455" r="5" class="region-dot"/>
+  <line x1="278" y1="455" x2="340" y2="465" class="connector"/>
+  <text x="345" y="461" class="label-bold">Montevideo</text>
+  <text x="345" y="475" class="label" font-size="10">Capital &amp; urban wineries</text>
+
+  <!-- Canelones region (largest, near Montevideo) -->
+  <circle cx="230" cy="400" r="28" class="region-dot-highlight" opacity="0.5"/>
+  <circle cx="230" cy="400" r="5" class="region-dot"/>
+  <line x1="212" y1="385" x2="90" y2="360" class="connector"/>
+  <text x="85" y="352" class="label-bold" text-anchor="end">Canelones</text>
+  <text x="85" y="366" class="label" font-size="10" text-anchor="end">Largest wine region</text>
+
+  <!-- Maldonado region (coastal, near Punta del Este) -->
+  <circle cx="340" cy="430" r="18" class="region-dot-highlight" opacity="0.7"/>
+  <circle cx="340" cy="430" r="5" class="region-dot"/>
+  <line x1="355" y1="420" x2="400" y2="395" class="connector"/>
+  <text x="405" y="391" class="label-bold">Maldonado</text>
+  <text x="405" y="405" class="label" font-size="10">Coastal / Punta del Este</text>
+
+  <!-- Legend -->
+  <rect x="15" y="550" width="470" height="40" fill="white" stroke="#e0d8f0" rx="5" opacity="0.9"/>
+  <circle cx="35" cy="570" r="8" class="region-dot-highlight" opacity="0.7"/>
+  <circle cx="35" cy="570" r="3" class="region-dot"/>
+  <text x="50" y="574" class="legend-text">Wine Region</text>
+  <circle cx="160" cy="570" r="12" fill="#FFEE58" opacity="0.5" stroke="#503AA8" stroke-width="1"/>
+  <text x="178" y="574" class="legend-text">Larger circle = greater production area</text>
+  <rect x="370" y="562" width="30" height="3" fill="#503AA8" stroke-dasharray="3,3" opacity="0.5"/>
+  <text x="405" y="574" class="legend-text">Label line</text>
+
+  <!-- Branding -->
+  <text x="250" y="598" font-family="sans-serif" font-size="9" fill="#999" text-anchor="middle">PowerfulThirst.com | Thirst Academy</text>
+</svg>

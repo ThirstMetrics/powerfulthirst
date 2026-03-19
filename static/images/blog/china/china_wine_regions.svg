@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700" width="800" height="700">
+  <defs>
+    <style>
+      .china-outline { fill: #f0edf7; stroke: #503AA8; stroke-width: 2; }
+      .region-dot { fill: #FFEE58; stroke: #503AA8; stroke-width: 2; }
+      .region-label { font-family: 'Georgia', serif; font-size: 13px; fill: #503AA8; font-weight: bold; }
+      .region-sub { font-family: 'Helvetica Neue', sans-serif; font-size: 10px; fill: #666; }
+      .title-text { font-family: 'Georgia', serif; font-size: 22px; fill: #503AA8; font-weight: bold; }
+      .connector { stroke: #503AA8; stroke-width: 1.5; stroke-dasharray: 4,3; fill: none; }
+      .legend-box { fill: white; stroke: #503AA8; stroke-width: 1; rx: 6; }
+    </style>
+  </defs>
+
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" class="title-text">China's Key Wine Regions</text>
+
+  <!-- Simplified China outline -->
+  <path class="china-outline" d="
+    M 280,80 L 320,75 L 370,70 L 420,72 L 460,78 L 500,85 L 540,80
+    L 570,90 L 600,100 L 630,120 L 650,150 L 670,180 L 680,210
+    L 685,240 L 690,270 L 685,300 L 680,330 L 670,360 L 660,390
+    L 650,410 L 640,430 L 620,450 L 600,465 L 580,475 L 555,490
+    L 530,500 L 510,510 L 490,520 L 470,530 L 445,535 L 420,530
+    L 400,525 L 380,530 L 360,540 L 340,545 L 320,540 L 300,530
+    L 280,520 L 260,500 L 240,480 L 225,460 L 215,440 L 200,420
+    L 190,400 L 185,380 L 180,355 L 178,330 L 180,305 L 185,280
+    L 190,260 L 200,240 L 210,220 L 220,200 L 230,180 L 240,160
+    L 250,140 L 260,120 L 270,100 Z
+  " />
+
+  <!-- Inner geographical reference lines (subtle) -->
+  <path d="M 350,200 Q 400,280 380,380" stroke="#e0dce8" stroke-width="1" fill="none" opacity="0.5" />
+  <path d="M 450,150 Q 500,250 520,350" stroke="#e0dce8" stroke-width="1" fill="none" opacity="0.5" />
+
+  <!-- XINJIANG - westernmost, largest area -->
+  <ellipse cx="260" cy="200" rx="45" ry="30" fill="#503AA8" opacity="0.15" stroke="#503AA8" stroke-width="1" stroke-dasharray="3,2" />
+  <circle cx="260" cy="200" r="10" class="region-dot" />
+  <line x1="260" y1="185" x2="200" y2="130" class="connector" />
+  <rect x="100" y="105" width="200" height="50" class="legend-box" />
+  <text x="200" y="125" text-anchor="middle" class="region-label">Xinjiang</text>
+  <text x="200" y="142" text-anchor="middle" class="region-sub">Largest vineyard area in China</text>
+
+  <!-- NINGXIA - star region, central-north -->
+  <ellipse cx="390" cy="215" rx="30" ry="22" fill="#FFEE58" opacity="0.3" stroke="#FFEE58" stroke-width="2" />
+  <circle cx="390" cy="215" r="12" fill="#FFEE58" stroke="#503AA8" stroke-width="3" />
+  <text x="390" y="220" text-anchor="middle" font-family="Georgia" font-size="10" fill="#503AA8" font-weight="bold">&#9733;</text>
+  <line x1="390" y1="200" x2="390" y2="130" class="connector" />
+  <rect x="295" y="95" width="190" height="55" rx="6" fill="#503AA8" />
+  <text x="390" y="117" text-anchor="middle" font-family="Georgia" font-size="14" fill="#FFEE58" font-weight="bold">Ningxia</text>
+  <text x="390" y="135" text-anchor="middle" font-family="Helvetica Neue, sans-serif" font-size="10" fill="white">~200 wineries &bull; "China's Napa"</text>
+
+  <!-- HEBEI - near Beijing, northeast -->
+  <circle cx="530" cy="200" r="10" class="region-dot" />
+  <line x1="540" y1="195" x2="620" y2="155" class="connector" />
+  <rect x="550" y="130" width="175" height="50" class="legend-box" />
+  <text x="637" y="150" text-anchor="middle" class="region-label">Hebei</text>
+  <text x="637" y="167" text-anchor="middle" class="region-sub">Near Beijing &bull; Growing region</text>
+
+  <!-- SHANDONG - east coast -->
+  <circle cx="570" cy="265" r="10" class="region-dot" />
+  <line x1="580" y1="262" x2="650" y2="240" class="connector" />
+  <rect x="575" y="215" width="195" height="50" class="legend-box" />
+  <text x="672" y="235" text-anchor="middle" class="region-label">Shandong / Yantai</text>
+  <text x="672" y="252" text-anchor="middle" class="region-sub">Oldest modern region (est. 1892)</text>
+
+  <!-- YUNNAN - southwest, high altitude -->
+  <circle cx="340" cy="430" r="10" class="region-dot" />
+  <line x1="335" y1="440" x2="290" y2="490" class="connector" />
+  <rect x="170" y="475" width="240" height="50" class="legend-box" />
+  <text x="290" y="495" text-anchor="middle" class="region-label">Yunnan</text>
+  <text x="290" y="512" text-anchor="middle" class="region-sub">High altitude &bull; Home of Ao Yun (LVMH)</text>
+
+  <!-- Legend -->
+  <rect x="30" y="580" width="260" height="95" rx="8" fill="white" stroke="#503AA8" stroke-width="1.5" />
+  <text x="50" y="605" font-family="Georgia" font-size="13" fill="#503AA8" font-weight="bold">Legend</text>
+  <circle cx="55" cy="625" r="8" fill="#FFEE58" stroke="#503AA8" stroke-width="3" />
+  <text x="55" y="629" text-anchor="middle" font-family="Georgia" font-size="8" fill="#503AA8" font-weight="bold">&#9733;</text>
+  <text x="72" y="630" font-family="Helvetica Neue, sans-serif" font-size="11" fill="#333">Premier region (Ningxia)</text>
+  <circle cx="55" cy="650" r="7" class="region-dot" />
+  <text x="72" y="655" font-family="Helvetica Neue, sans-serif" font-size="11" fill="#333">Established wine region</text>
+
+  <!-- Branding -->
+  <text x="770" y="690" text-anchor="end" font-family="Helvetica Neue, sans-serif" font-size="9" fill="#999">PowerfulThirst.com | Thirst Academy</text>
+</svg>

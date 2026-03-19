@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <style>
+      .region { stroke: #503AA8; stroke-width: 2; opacity: 0.85; cursor: pointer; }
+      .region:hover { opacity: 1; stroke-width: 3; }
+      .label { font-family: 'Georgia', serif; font-size: 13px; fill: #1a1a1a; font-weight: bold; text-anchor: middle; }
+      .sublabel { font-family: 'Helvetica Neue', sans-serif; font-size: 10px; fill: #555; text-anchor: middle; }
+      .title { font-family: 'Georgia', serif; font-size: 22px; fill: #503AA8; font-weight: bold; text-anchor: middle; }
+      .border { fill: none; stroke: #333; stroke-width: 3; }
+      .neighbor-label { font-family: 'Helvetica Neue', sans-serif; font-size: 11px; fill: #999; text-anchor: middle; font-style: italic; }
+      .river { fill: none; stroke: #7BAFD4; stroke-width: 2; stroke-dasharray: 6,3; }
+      .sea { fill: #C8DFF0; }
+      .legend-box { rx: 4; ry: 4; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="#FAFAF5"/>
+
+  <!-- Title -->
+  <text x="400" y="40" class="title">Wine Regions of Bulgaria</text>
+
+  <!-- Black Sea -->
+  <path d="M680,100 Q740,100 750,150 Q760,250 750,350 Q740,420 700,470 L680,470 L680,100 Z" class="sea"/>
+  <text x="730" y="280" class="neighbor-label" transform="rotate(90,730,280)">Black Sea</text>
+
+  <!-- Country outline — simplified Bulgaria shape -->
+  <path d="M120,130 L300,110 L420,100 L520,115 L600,130 L670,150 L680,180
+           L675,230 L680,280 L680,330 L670,380 L650,420 L600,440
+           L540,460 L480,465 L420,460 L360,450 L300,445
+           L240,450 L190,440 L150,420 L130,380 L120,340
+           L115,280 L110,230 L115,180 Z"
+        class="border" fill="#F0EDE6"/>
+
+  <!-- Danube River (northern border) -->
+  <path d="M120,130 C200,125 300,110 420,100 C480,105 540,115 600,130 L670,150"
+        class="river"/>
+  <text x="350" y="90" class="neighbor-label">Danube River</text>
+  <text x="350" y="75" class="neighbor-label">Romania</text>
+
+  <!-- Neighbor labels -->
+  <text x="90" y="290" class="neighbor-label" transform="rotate(-90,90,290)">Serbia</text>
+  <text x="140" y="465" class="neighbor-label">N. Macedonia</text>
+  <text x="330" y="485" class="neighbor-label">Greece</text>
+  <text x="560" y="480" class="neighbor-label">Turkey</text>
+
+  <!-- Balkan Mountains divider (approximate) -->
+  <path d="M130,280 C200,260 300,250 400,260 C500,270 600,265 670,280"
+        fill="none" stroke="#8B7355" stroke-width="1.5" stroke-dasharray="4,2" opacity="0.6"/>
+  <text x="560" y="255" font-family="Helvetica Neue, sans-serif" font-size="9" fill="#8B7355" font-style="italic">Stara Planina (Balkan Mts.)</text>
+
+  <!-- WINE REGIONS -->
+
+  <!-- 1. Danubian Plain (North) -->
+  <path d="M160,155 L300,140 L420,132 L520,145 L590,158 L620,170
+           L615,210 L600,240 L500,250 L400,248 L300,245 L200,255
+           L155,240 L145,200 Z"
+        fill="#FFEE58" fill-opacity="0.55" class="region"/>
+  <text x="380" y="185" class="label">Danubian Plain</text>
+  <text x="380" y="200" class="sublabel">Continental / White-Focused</text>
+  <text x="380" y="213" class="sublabel">Gamza, Muscat, Dimyat</text>
+
+  <!-- 2. Rose Valley / Sub-Balkan (Central strip) -->
+  <path d="M250,258 L400,252 L500,256 L520,268 L510,295 L400,290 L300,292 L250,288 Z"
+        fill="#E8A0BF" fill-opacity="0.55" class="region"/>
+  <text x="390" y="278" class="label" font-size="11">Rose Valley / Sub-Balkan</text>
+
+  <!-- 3. Thracian Valley (South-central, largest) -->
+  <path d="M220,300 L400,295 L530,300 L580,320 L600,370 L570,410 L500,435
+           L400,440 L310,435 L250,420 L210,390 L200,345 Z"
+        fill="#503AA8" fill-opacity="0.4" class="region"/>
+  <text x="400" y="355" class="label" fill="#fff">Thracian Valley</text>
+  <text x="400" y="372" class="sublabel" fill="#e8e0ff">Largest Region / Red-Focused</text>
+  <text x="400" y="385" class="sublabel" fill="#e8e0ff">Mavrud, Rubin, Merlot</text>
+
+  <!-- 4. Struma Valley (Southwest) -->
+  <path d="M150,340 L195,330 L205,355 L200,400 L185,430 L160,445 L140,430 L130,390 Z"
+        fill="#FFEE58" fill-opacity="0.7" class="region"/>
+  <text x="168" y="375" class="label" font-size="10">Struma</text>
+  <text x="168" y="388" class="label" font-size="10">Valley</text>
+  <text x="168" y="401" class="sublabel" font-size="8">Mediterranean</text>
+  <text x="168" y="412" class="sublabel" font-size="8">Melnik grape</text>
+
+  <!-- 5. Black Sea Region (East) -->
+  <path d="M590,165 L640,180 L660,200 L665,250 L665,310 L660,360 L640,400 L610,420
+           L575,415 L560,380 L570,320 L575,260 L580,210 Z"
+        fill="#503AA8" fill-opacity="0.25" class="region"/>
+  <text x="620" y="285" class="label" font-size="11">Black</text>
+  <text x="620" y="300" class="label" font-size="11">Sea</text>
+  <text x="620" y="315" class="sublabel" font-size="9">Whites / Moderate</text>
+  <text x="620" y="328" class="sublabel" font-size="9">Dimyat, Misket</text>
+
+  <!-- Legend -->
+  <rect x="30" y="500" width="740" height="80" rx="6" ry="6" fill="white" stroke="#ddd" stroke-width="1"/>
+  <text x="400" y="522" font-family="Georgia, serif" font-size="13" fill="#503AA8" font-weight="bold" text-anchor="middle">Legend</text>
+
+  <rect x="60" y="535" width="18" height="14" fill="#503AA8" fill-opacity="0.4" class="legend-box" stroke="#503AA8" stroke-width="1"/>
+  <text x="85" y="547" font-family="Helvetica Neue, sans-serif" font-size="11" fill="#333">Thracian Valley (Red-Focused)</text>
+
+  <rect x="270" y="535" width="18" height="14" fill="#FFEE58" fill-opacity="0.55" class="legend-box" stroke="#503AA8" stroke-width="1"/>
+  <text x="295" y="547" font-family="Helvetica Neue, sans-serif" font-size="11" fill="#333">Danubian Plain / Struma (White / Mediterranean)</text>
+
+  <rect x="560" y="535" width="18" height="14" fill="#E8A0BF" fill-opacity="0.55" class="legend-box" stroke="#503AA8" stroke-width="1"/>
+  <text x="585" y="547" font-family="Helvetica Neue, sans-serif" font-size="11" fill="#333">Rose Valley / Sub-Balkan</text>
+
+  <rect x="60" y="558" width="18" height="14" fill="#503AA8" fill-opacity="0.25" class="legend-box" stroke="#503AA8" stroke-width="1"/>
+  <text x="85" y="570" font-family="Helvetica Neue, sans-serif" font-size="11" fill="#333">Black Sea Region (Whites / Moderate)</text>
+
+  <text x="720" y="570" font-family="Helvetica Neue, sans-serif" font-size="9" fill="#aaa">powerfulthirst.com</text>
+</svg>

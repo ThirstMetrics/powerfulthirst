@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700" width="600" height="700">
+  <defs>
+    <style>
+      .land { fill: #e8e0f4; stroke: #503AA8; stroke-width: 1.5; }
+      .region-dot { fill: #503AA8; }
+      .region-dot-accent { fill: #FFEE58; stroke: #503AA8; stroke-width: 1.5; }
+      .label { font-family: 'Segoe UI', Arial, sans-serif; font-size: 11px; fill: #2d2055; font-weight: 600; }
+      .label-small { font-family: 'Segoe UI', Arial, sans-serif; font-size: 9.5px; fill: #555; font-weight: 400; }
+      .title { font-family: 'Segoe UI', Arial, sans-serif; font-size: 18px; fill: #503AA8; font-weight: 700; }
+      .subtitle { font-family: 'Segoe UI', Arial, sans-serif; font-size: 11px; fill: #777; font-weight: 400; }
+      .line { stroke: #503AA8; stroke-width: 1; stroke-dasharray: 3,2; }
+      .equator { stroke: #ccc; stroke-width: 0.8; stroke-dasharray: 6,3; }
+      .equator-label { font-family: 'Segoe UI', Arial, sans-serif; font-size: 9px; fill: #aaa; }
+      .legend-box { fill: white; stroke: #ddd; stroke-width: 1; rx: 4; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="700" fill="#fafafa" rx="8"/>
+
+  <!-- Title -->
+  <text x="300" y="35" text-anchor="middle" class="title">Wine Regions of Brazil</text>
+  <text x="300" y="52" text-anchor="middle" class="subtitle">Key Appellations &amp; Emerging Areas</text>
+
+  <!-- Simplified Brazil outline -->
+  <path class="land" d="
+    M 310,80
+    C 330,78 360,82 385,90
+    Q 420,100 445,120
+    Q 470,135 485,160
+    Q 500,185 505,210
+    Q 510,240 508,270
+    Q 505,310 495,340
+    Q 488,360 480,380
+    Q 470,400 455,420
+    Q 440,445 420,465
+    Q 400,485 380,500
+    Q 360,515 345,530
+    Q 330,545 315,555
+    Q 295,565 280,570
+    Q 260,572 240,565
+    Q 215,555 195,535
+    Q 178,518 168,500
+    Q 155,475 148,450
+    Q 140,420 135,390
+    Q 130,355 128,320
+    Q 125,285 130,250
+    Q 135,215 145,185
+    Q 155,155 170,135
+    Q 190,115 210,102
+    Q 235,90 260,83
+    Q 285,78 310,80
+    Z
+  "/>
+
+  <!-- Equator line -->
+  <line x1="100" y1="115" x2="540" y2="115" class="equator"/>
+  <text x="545" y="118" class="equator-label">Equator</text>
+
+  <!-- State boundaries hint - RS/SC border area -->
+  <path d="M 195,505 Q 250,490 310,500" stroke="#503AA8" stroke-width="0.5" fill="none" stroke-dasharray="2,2" opacity="0.4"/>
+
+  <!-- ============================================ -->
+  <!-- REGION 1: Vale do Sao Francisco (8-9° S) -->
+  <!-- ============================================ -->
+  <circle cx="370" cy="185" r="8" class="region-dot-accent"/>
+  <circle cx="370" cy="185" r="3" class="region-dot"/>
+  <line x1="378" y1="185" x2="430" y2="170" class="line"/>
+  <rect x="432" y="153" width="148" height="38" rx="4" fill="white" stroke="#FFEE58" stroke-width="1.5" opacity="0.95"/>
+  <text x="440" y="168" class="label">Vale do Sao Francisco</text>
+  <text x="440" y="181" class="label-small">Bahia/Pernambuco | 8-9° S</text>
+
+  <!-- ============================================ -->
+  <!-- REGION 2: Sao Joaquim (Santa Catarina) -->
+  <!-- ============================================ -->
+  <circle cx="290" cy="478" r="8" class="region-dot-accent"/>
+  <circle cx="290" cy="478" r="3" class="region-dot"/>
+  <line x1="282" y1="478" x2="145" y2="458" class="line"/>
+  <rect x="18" y="443" width="128" height="38" rx="4" fill="white" stroke="#FFEE58" stroke-width="1.5" opacity="0.95"/>
+  <text x="26" y="458" class="label">Sao Joaquim</text>
+  <text x="26" y="471" class="label-small">Santa Catarina | 900-1400m</text>
+
+  <!-- ============================================ -->
+  <!-- REGION 3: Serra Gaucha (RS) -->
+  <!-- ============================================ -->
+  <circle cx="268" cy="510" r="10" class="region-dot-accent"/>
+  <circle cx="268" cy="510" r="4" class="region-dot"/>
+  <!-- Larger dot = primary region -->
+  <line x1="260" y1="516" x2="130" y2="545" class="line"/>
+  <rect x="10" y="530" width="122" height="50" rx="4" fill="white" stroke="#503AA8" stroke-width="1.5" opacity="0.95"/>
+  <text x="18" y="546" class="label" style="fill:#503AA8;">Serra Gaucha</text>
+  <text x="18" y="559" class="label-small">Rio Grande do Sul</text>
+  <text x="18" y="571" class="label-small">Vale dos Vinhedos DO</text>
+
+  <!-- ============================================ -->
+  <!-- REGION 4: Campanha Gaucha (RS) -->
+  <!-- ============================================ -->
+  <circle cx="225" cy="545" r="8" class="region-dot-accent"/>
+  <circle cx="225" cy="545" r="3" class="region-dot"/>
+  <line x1="220" y1="551" x2="175" y2="595" class="line"/>
+  <rect x="60" y="590" width="138" height="38" rx="4" fill="white" stroke="#FFEE58" stroke-width="1.5" opacity="0.95"/>
+  <text x="68" y="605" class="label">Campanha Gaucha</text>
+  <text x="68" y="618" class="label-small">RS Pampas | Uruguay border</text>
+
+  <!-- Legend -->
+  <rect x="410" y="600" width="170" height="72" class="legend-box" opacity="0.95"/>
+  <circle cx="428" cy="618" r="5" class="region-dot-accent"/>
+  <circle cx="428" cy="618" r="2" class="region-dot"/>
+  <text x="440" y="622" class="label-small">Established region</text>
+
+  <circle cx="428" cy="638" r="6" fill="white" stroke="#503AA8" stroke-width="1.5"/>
+  <circle cx="428" cy="638" r="2.5" class="region-dot"/>
+  <text x="440" y="642" class="label-small">Primary appellation (DO)</text>
+
+  <line x1="422" y1="655" x2="434" y2="655" class="equator"/>
+  <text x="440" y="659" class="label-small">Equator</text>
+
+  <!-- Branding -->
+  <text x="300" y="690" text-anchor="middle" class="label-small" style="fill:#999;">PowerfulThirst.com | Thirst Academy</text>
+</svg>

@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <defs>
+    <style>
+      .region-label { font-family: 'Georgia', serif; font-size: 13px; font-weight: bold; fill: #1a1a1a; }
+      .sub-label { font-family: 'Georgia', serif; font-size: 10.5px; fill: #503AA8; font-style: italic; }
+      .country-label { font-family: 'Georgia', serif; font-size: 11px; fill: #888; }
+      .title-label { font-family: 'Georgia', serif; font-size: 16px; font-weight: bold; fill: #503AA8; }
+      .legend-text { font-family: 'Georgia', serif; font-size: 10px; fill: #333; }
+      .border-label { font-family: 'Georgia', serif; font-size: 9px; fill: #aaa; letter-spacing: 1px; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="400" fill="#f9f7f2" rx="8"/>
+
+  <!-- Title -->
+  <text x="300" y="32" text-anchor="middle" class="title-label">Wine Regions of Slovenia</text>
+
+  <!-- Neighboring country labels -->
+  <text x="135" y="68" text-anchor="middle" class="border-label">AUSTRIA</text>
+  <text x="530" y="140" text-anchor="middle" class="border-label">HUNGARY</text>
+  <text x="80" y="310" text-anchor="middle" class="border-label">ITALY</text>
+  <text x="430" y="350" text-anchor="middle" class="border-label">CROATIA</text>
+
+  <!-- Slovenia outline - simplified shape -->
+  <path d="M 140,95 L 200,75 L 280,70 L 340,78 L 410,82 L 465,100 L 490,130
+           L 500,165 L 475,200 L 440,230 L 400,260 L 360,280 L 310,290
+           L 260,285 L 220,275 L 185,260 L 155,240 L 130,215 L 115,185
+           L 110,155 L 115,125 Z"
+        fill="none" stroke="#333" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Primorska region (western) -->
+  <path d="M 115,125 L 140,95 L 200,75 L 230,85 L 235,110 L 240,145
+           L 235,185 L 220,220 L 195,250 L 175,260 L 155,240 L 130,215
+           L 115,185 L 110,155 Z"
+        fill="#503AA8" fill-opacity="0.35" stroke="#503AA8" stroke-width="1.5"/>
+
+  <!-- Podravje region (northeast) -->
+  <path d="M 305,72 L 340,78 L 410,82 L 465,100 L 490,130 L 500,165
+           L 475,200 L 440,210 L 395,195 L 355,175 L 325,155 L 305,130
+           L 295,100 Z"
+        fill="#FFEE58" fill-opacity="0.45" stroke="#c5b800" stroke-width="1.5"/>
+
+  <!-- Posavje region (southeast) -->
+  <path d="M 325,155 L 355,175 L 395,195 L 440,210 L 475,200 L 440,230
+           L 400,260 L 360,280 L 310,290 L 260,285 L 240,270 L 250,245
+           L 270,220 L 290,195 L 310,175 Z"
+        fill="#503AA8" fill-opacity="0.15" stroke="#503AA8" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <!-- Region labels -->
+  <text x="172" y="175" text-anchor="middle" class="region-label">Primorska</text>
+  <text x="395" y="145" text-anchor="middle" class="region-label">Podravje</text>
+  <text x="360" y="252" text-anchor="middle" class="region-label">Posavje</text>
+
+  <!-- Sub-region markers: Goriška Brda -->
+  <circle cx="155" cy="120" r="5" fill="#503AA8" stroke="#fff" stroke-width="1.5"/>
+  <text x="163" y="114" class="sub-label">Goriška Brda</text>
+
+  <!-- Sub-region markers: Vipava Valley -->
+  <circle cx="185" cy="150" r="5" fill="#503AA8" stroke="#fff" stroke-width="1.5"/>
+  <text x="138" y="145" class="sub-label">Vipava</text>
+  <text x="138" y="157" class="sub-label">Valley</text>
+
+  <!-- Ljubljana marker -->
+  <circle cx="270" cy="170" r="4" fill="#333" stroke="#fff" stroke-width="1.5"/>
+  <text x="280" y="167" font-family="Georgia, serif" font-size="11" fill="#333">Ljubljana</text>
+
+  <!-- Karst sub-region label -->
+  <text x="155" y="210" class="sub-label">Karst</text>
+
+  <!-- Slovenian Istria label -->
+  <text x="158" y="248" class="sub-label">Slov. Istria</text>
+
+  <!-- Maribor marker in Podravje -->
+  <circle cx="420" cy="112" r="3.5" fill="#333" stroke="#fff" stroke-width="1"/>
+  <text x="430" y="116" font-family="Georgia, serif" font-size="10" fill="#555">Maribor</text>
+
+  <!-- Legend -->
+  <rect x="20" y="340" width="560" height="50" fill="#f0ede6" rx="6" stroke="#ddd" stroke-width="0.5"/>
+  <rect x="35" y="355" width="16" height="12" fill="#503AA8" fill-opacity="0.35" stroke="#503AA8" stroke-width="1" rx="2"/>
+  <text x="56" y="365" class="legend-text">Primorska (Mediterranean)</text>
+  <rect x="215" y="355" width="16" height="12" fill="#FFEE58" fill-opacity="0.45" stroke="#c5b800" stroke-width="1" rx="2"/>
+  <text x="236" y="365" class="legend-text">Podravje (Continental)</text>
+  <rect x="395" y="355" width="16" height="12" fill="#503AA8" fill-opacity="0.15" stroke="#503AA8" stroke-width="1" stroke-dasharray="4,3" rx="2"/>
+  <text x="416" y="365" class="legend-text">Posavje (Semi-continental)</text>
+</svg>
