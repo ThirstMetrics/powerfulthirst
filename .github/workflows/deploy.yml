@@ -7,6 +7,9 @@ on:
   pull_request:
     branches:
       - main
+  schedule:
+    # Daily rebuild at 6:00 AM Pacific (13:00 UTC) to publish future-dated posts
+    - cron: '0 13 * * *'
 
 jobs:
   build-and-deploy:
